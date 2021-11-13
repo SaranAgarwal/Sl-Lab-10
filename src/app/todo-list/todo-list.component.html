@@ -1,0 +1,6 @@
+<h2>Todo List(List Format)</h2>
+<div class="center">
+    <ul>
+        <li *ngFor="let item of todoin.todolist">{{item.Task}}<button class="remove" (click)="removeTask(item)" mat-stroked-button color="primary">Remove Task</button></li>
+    </ul>
+</div>

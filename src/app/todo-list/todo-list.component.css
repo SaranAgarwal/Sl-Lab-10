@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.remove{
+    margin-left: 50px;
+}
+
+.center{
+    background-color: rgba(248, 247, 244, 0.733);
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 1.1em;
+}
+
+li{
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
