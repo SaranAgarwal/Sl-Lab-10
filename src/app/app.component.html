@@ -1,7 +1,18 @@
+<div class="routing">
+  <h3>Routing:</h3>
+  <button><a routerLink="/todolist">TodoList</a></button>
+  <button><a routerLink="/tododetails">TodoDetails</a></button>
+</div>
+
+<h3>API Data:</h3>
+<app-space-x></app-space-x>
+
 <h1>TODO App</h1>
 <div class="center">
   <input id = "input" class="hidden" matInput placeholder="Enter Task" name="input" #input>
   <button class ="hidden" id = "button" mat-raised-button (click) = "submit(input.value)">ADD TASK</button>
 </div>
-<app-todo-list></app-todo-list>
-<app-todo-details></app-todo-details>
+
+<router-outlet></router-outlet>
+<!-- <app-todo-list></app-todo-list> -->
+<!-- <app-todo-details></app-todo-details> -->

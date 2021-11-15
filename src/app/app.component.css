@@ -4,6 +4,19 @@ h1{
     font-weight: bold;
     text-align: center;
 }
+.routing button{
+    margin: 5px;
+}
+.routing h3{
+    display: inline-block;
+    /* width: 100%; */
+}
+
+.routing a{
+    text-decoration: none;
+    margin: 10px;
+
+}
 
 .center{
     margin-left: auto;
